@@ -2,15 +2,13 @@
 
 int main()
 {
-    vector<vector<double>>matrixPla;///matriz que terá toda a planilha
-
     vector<vector<double>>matrixCalc;///matriz que percorrerá a planilha
 
     vector<vector<double>>identidade;///matriz identidade
 
     std::chrono::steady_clock::time_point comeco= std::chrono::steady_clock::now();
 
-    leArquivo(matrixPla,matrixCalc,identidade);
+    leArquivo(matrixCalc,identidade);
 
     std::chrono::steady_clock::time_point fim = std::chrono::steady_clock::now();
 
