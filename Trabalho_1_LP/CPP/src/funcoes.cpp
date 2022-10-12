@@ -57,6 +57,7 @@ void percorreCalculando(vector<vector<double>> matrixCalc,vector<vector<double>>
     }
     
     cout<<endl<<"Matrizes que não tem inversa:"<<cont<<endl;
+
 }
 
 int matrizInversa(vector<vector<double>> matrixCalc,vector<vector<double>> identidade)
